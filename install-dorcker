@@ -1,0 +1,10 @@
+# install docker in ubuntu 
+create a shell sript 
+vi into it
+sudo apt update -y
+sudo apt install docker.io -y 
+sudo service docker start 
+sudo hostnamectl set-hostname docker
+sudo usermod -aG docker ubuntu 
+sudo su - ubuntu
+
